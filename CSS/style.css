@@ -25,7 +25,7 @@ body{
 .first_part{
     width: 100%;
     height: 84rem;
-    background-image: url(../img/first_bg.png);
+    background-image: url(img/first_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
@@ -142,7 +142,7 @@ body{
 
 .place.tel:hover img {
   animation: ring 0.7s ease-in-out infinite;
-  content: url(../img/phone-call_hover.svg);
+  content: url(img/phone-call_hover.svg);
 
 }
 
@@ -166,7 +166,7 @@ body{
 }
 
 .place.navig:hover img{
-    content: url(../img/placeholder_hover.svg);
+    content: url(img/placeholder_hover.svg);
     animation: nav 1s ease forwards;
 }
 
@@ -297,25 +297,25 @@ body{
 }
 
 .one{
-    background-image: url(../img/loft1.png);
+    background-image: url(img/loft1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .two{
-    background-image: url(../img/loft2.png);
+    background-image: url(img/loft2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .three{
-    background-image: url(../img/loft3.png);
+    background-image: url(img/loft3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .four{
-    background-image: url(../img/loft4.png);
+    background-image: url(img/loft4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -330,7 +330,7 @@ body{
 .cont{
     width: 100%;
     height: 56rem;
-    background-image: url(../img/second_bg.png);
+    background-image: url(img/second_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
@@ -576,22 +576,22 @@ input::placeholder{
 }
 
 .youtube:hover img{
-    content: url(../img/youtube_hover.svg);
+    content: url(img/youtube_hover.svg);
     transform: scale(1.2);
 }
 
 .vk:hover img{
-    content: url(../img/vk_hover.svg);
+    content: url(img/vk_hover.svg);
     transform: scale(1.2);
 }
 
 .facebook:hover img{
-    content: url(../img/facebook-logo_hover.svg);
+    content: url(img/facebook-logo_hover.svg);
     transform: scale(1.2);
 }
 
 .instagram:hover img{
-    content: url(../img/instagram_hover.svg);
+    content: url(img/instagram_hover.svg);
     transform: scale(1.2);
 }
 
