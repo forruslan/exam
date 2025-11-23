@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>HouseVOP | Home</title>
+</head>
+<body>
+    <div class="first_part">
+        <header class="header">
+            <a href=""><img id="logo" src="/img/main_logo.svg" alt="logo"></a>
+            <input type="checkbox" id="burger-toggle">
+
+            <label for="burger-toggle" class="burger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <nav class="nav">
+                <ul>
+                    <li><a class="menu" href="">О комплексе</a></li>
+                    <li><a class="menu" href="">Район</a></li>
+                    <li><a class="menu" href="#appartments">Каталог квартир</a></li>
+                    <li><a class="menu" href="">Ипотека</a></li>
+                    <li><a class="menu" href="">Контакты</a></li>
+                </ul>
+            </nav> 
+                     
+        </header>
+
+        <section class="main_page">
+            <h1>Жилой комплекс <br>в историческом центре</h1>
+            <a id="mouse" href="#appartments"><img src="/img/mouse.svg" alt="mouse"></a>
+            <div class="contacts">
+                <a class="place navig" href="" ><img src="/img/placeholder.svg" alt="place"><span>Наб. реки Фонтанки 10-15</span></a>
+                <a class="place tel" href="tel:+78121234567"><img src="/img/phone-call.svg" alt="phone"><span>8 (812) 123-45-67</span></a>
+            </div>
+        </section>   
+    </div>
+    <div class="map-box">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.2771828668454!2d30.336811177321177!3d59.94413546165746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310cabf9aedb%3A0xf41abdb5a5a513b2!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgMTAsIDE1LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODc!5e0!3m2!1sru!2skz!4v1763886747888!5m2!1sru!2skz"  
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <section class="advantages">
+        <div class="item park">
+            <img src="/img/parks.svg" alt="park">
+            <p>Рядом исторические <br>парки и скверы</p>
+        </div>
+        <div class="item building">
+            <img src="/img/building.svg" alt="building">
+            <p>Полностью <br>обустроенный</p>
+        </div>
+        <div class="item fontain">
+            <img src="/img/fountain.svg" alt="fountain">
+            <p>10 фонтанов <br>на территории</p>
+        </div>
+        <div class="item bicycle">
+            <img src="/img/bicycle.svg" alt="bicycle">
+            <p>6 км <br>велодорожек</p>
+        </div>
+    </section>
+    <section class="appartments">
+        <h2 id="appartments">Наши квартиры</h2>
+        <div class="flats">
+            <a href="">
+                <div class="loft one">
+                    <h3>Лофт — 3 этажа</h3>
+                </div>
+            </a>
+            <a href="">
+                <div class="loft two">
+                    <h3>Лофт — 2 этажа</h3>
+                </div>
+            </a>
+            <a href="">
+                <div class="loft three">
+                    <h3>Лофт — 3 этажа</h3>
+                </div>
+            </a>
+            <a href="">
+                <div class="loft four">
+                    <h3>Лофт — 2 этажа</h3>
+                </div>
+            </a>            
+        </div>
+        <!-- карусель -->
+         <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/loft1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Лофт — 3 этажа</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/loft2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Лофт — 2 этажа</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/loft3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Лофт — 3 этажа</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/loft4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Лофт — 2 этажа</h5>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- конец карусели -->
+
+    </section>
+    <section class="cont">
+        <div class="internal">
+            <div class="description">
+                <h2 id="question">Хотите посмотреть?</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" 
+                    для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию 
+                    размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+            </div>
+            <form class="form" action="">
+                <input class="input" type="text" name="name" placeholder="Ваше имя">
+                <input class="input" type="tel" name="phone" placeholder="Ваш телефон">
+                <div class="note">
+                    <p>*Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.</p>
+                </div>
+                <button class="button" type="button" >Посмотреть район</button>
+            </form>
+        </div>
+    </section>
+    <div class="video-box">
+        <img class="cover" src="/img/preview.png" alt="preview">
+        <button class="play" type="button"><img src="/img/button.svg" alt="button"></button>
+
+
+        <iframe class="movie" 
+            src="" 
+            data-src="https://www.youtube.com/embed/3L2JKP4guaU?autoplay=1"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <footer class="footer">
+        <div class="inner">
+            <div class="logotype">
+                <img src="/img/main_logo.svg" alt="logo">
+            </div>
+            <nav class="list list_one">
+                <ul>
+                    <li><a href="">О комплексе</a></li>
+                    <li><a href="">Район</a></li>
+                    <li><a href="">Каталог квартир</a></li>
+                    <li><a href="">Ипотека</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <nav class="list list_two">
+                <ul>
+                    <li><a href="">О комплексе</a></li>
+                    <li><a href="">Район</a></li>
+                    <li><a href="">Каталог квартир</a></li>
+                    <li><a href="">Ипотека</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="data">
+                <span>Адрес: Наб. реки Фонтанки 10-15</span>
+                <span>Телефон: 8 (812) 123-45-67</span>
+                <span>Отдел продаж: 10:00 - 20:00</span>
+                <span>E-mail: <a id="mail" href="">vip@housevip.ru</a></span>
+                <div class="networks">
+                    <a class="label youtube" href=""><img src="/img/youtube.svg" alt="youtube"></a>
+                    <a class="label vk" href=""><img src="/img/vk.svg" alt="vk"></a>
+                    <a class="label facebook" href=""><img src="/img/facebook-logo.svg" alt="facebook"></a>
+                    <a class="label instagram" href=""><img src="/img/instagram.svg" alt="insta"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<script>
+  const playBtn = document.querySelector('.play');
+  const cover   = document.querySelector('.cover');
+  const iframe  = document.querySelector('.movie');
+
+  playBtn.addEventListener('click', function () {
+    iframe.src = iframe.dataset.src;
+    iframe.style.display = 'block';
+    cover.style.opacity = '0';
+    cover.style.pointerEvents = 'none';
+    playBtn.style.display = 'none';
+  });
+
+  const link = document.querySelector('.navig');
+  const box  = document.querySelector('.map-box');
+
+  link.addEventListener('click', (e) => {
+    e.preventDefault(); 
+    box.classList.toggle('open');
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+</body>
+</html>
